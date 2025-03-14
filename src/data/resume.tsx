@@ -65,8 +65,31 @@ export const DATA = {
       },
     },
   },
-
   work: [
+    {
+      company: "Fastevo",
+      href: "https://fastevo.com/",
+      badges: ["Remote"],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/fastevo.webp",
+      start: "Jun 2024",
+      end: "Present",
+      description:
+        "Design and development of interactive user interfaces for a dynamic dashboard featuring multiple functionalities, ensuring seamless and intuitive experiences that drive productivity.",
+    },
+    {
+      company: "Dooyu",
+      href: "https://dooyu.com/",
+      badges: ["Remote"],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/dooyu.webp",
+      start: "April 2024",
+      end: "Jun 2024",
+      description:
+        "Design and development of a dynamic bio for user promotion that functions as a digital hub for personal links and social profiles, delivering a sleek, engaging, and customizable experience.",
+    },
     {
       company: "Team Squad",
       href: "#",
@@ -77,7 +100,7 @@ export const DATA = {
       start: "Feb 2024",
       end: "Present",
       description:
-        "Development and design of interfaces to optimize internal management and enhance user experience. I have worked on creating an internal panel for the support team, a conversion-focused landing page, and a management panel for key projects.",
+        "Joined a development team to contribute with frontend design and development.",
     },
   ],
   education: [
@@ -88,6 +111,14 @@ export const DATA = {
       logoUrl: "/uniajc.webp",
       start: "2020",
       end: "2024",
+    },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/orlandomm/ruta/100-javascript-full-stack/diploma/detalle/",
+      degree: "Full Stack Developer with Javascript",
+      logoUrl: "/platzi.webp",
+      start: "2023",
+      end: "2023",
     },
     {
       school: "SENA",
