@@ -145,9 +145,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/orlandomm.webp",
       video:
-        "https://firebasestorage.googleapis.com/v0/b/orlandomm-a7f82.appspot.com/o/videos%2F2025-03-12%2019-55-15.mp4?alt=media&token=61e5feff-0576-4806-bbe8-36abefb9bebe",
+        "",
     },
     {
       title: "Eclipse",
@@ -169,9 +169,9 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "",
+      image: "/projects/eclipse.webp",
       video:
-        "https://firebasestorage.googleapis.com/v0/b/orlandomm-a7f82.appspot.com/o/videos%2F2025-03-12%2019-37-18.mp4?alt=media&token=93e704d7-a244-482c-bec0-a7ad5a8334c5",
+        "",
     },
     {
       title: "Oxa Network",
@@ -188,9 +188,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/oxa.webp",
       video:
-        "https://firebasestorage.googleapis.com/v0/b/orlandomm-a7f82.appspot.com/o/videos%2F2025-03-12%2019-19-55.mp4?alt=media&token=d4d4ca45-2891-4d61-9d01-c73dd182bef4",
+        "",
     },
     {
       title: "Scarlxrd",
@@ -213,9 +213,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/scarlxrd.webp",
       video:
-        "https://firebasestorage.googleapis.com/v0/b/orlandomm-a7f82.appspot.com/o/videos%2F2025-03-12%2019-15-58.mp4?alt=media&token=54525c90-c9e7-4d91-9455-77162934323d",
+        "",
     },
   ],
   hackathons: [
