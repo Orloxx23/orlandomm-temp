@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://orlandomm.net",
   location: "Cali, Colombia",
   locationLink: "https://www.google.com/maps/place/Cali",
-  description: "Systems engineering student. I like to try new things.",
+  description: "Systems engineering. I like to try new things.",
   summary:
     "Since I was a child, I have always loved creating, and when I discovered the world of the internet, I knew it was my true passion. I enjoy solving problems through code and designing visually appealing interfaces that provide a great user experience. I'm driven by the idea of building innovative solutions and continuously learning to improve with every project I develop.",
   avatarUrl: "/me.webp",
