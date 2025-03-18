@@ -73,7 +73,7 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/fastevo.webp",
-      start: "Jun 2024",
+      start: "May 2024",
       end: "Present",
       description:
         "Design and development of interactive user interfaces for a dynamic dashboard featuring multiple functionalities, ensuring seamless and intuitive experiences that drive productivity.",
