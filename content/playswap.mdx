@@ -1,0 +1,74 @@
+---
+title: "PlaySwap"
+publishedAt: "2025-04-21"
+summary: "What started as a simple plan to migrate my playlists from Spotify to YouTube Music turned into a hilarious and surprisingly beautiful journey into vibe coding, AI-assisted song matching, and one unexpected plot twist. Built with v0 and love."
+---
+
+![PlaySwap UI](/blog/playswap/final.png)
+
+# How I built **PlaySwap** with *v0* and vibe coding
+
+A while ago, I was a loyal **Spotify** user. My playlists were carefully crafted, full of bangers for every imaginable mood. But eventually, for convenience (and because I was already paying for YouTube Premium), I switched to **YouTube Music**.
+
+All good... except for one *tiny* problem:  
+**Where are my playlists?**
+
+I thought: "There must be a tool to migrate playlists from Spotify to YouTube Music, right?"  
+But instead of searching for something that already exists, I remembered something way more fun:  
+**vibe coding** + **[v0.dev](https://v0.dev)**.
+
+So I said: *"Why not just build it myself?"* 🧪
+
+---
+
+## First steps: from chaos to MVP
+
+The idea was simple — move playlists between platforms.  
+Using v0 was magical. After just a couple of iterations, I had a working MVP.  
+A few more tweaks and the UI looked *chef’s kiss* — clean, modern, and professional.
+
+> I felt like a pharaoh giving commands to a digital servant:  
+> *"Build me a UI worthy of the gods!"*  
+> And v0, without complaint, obeyed.
+
+Pure **vibe coding** at its finest.
+
+![PlaySwap UI](/blog/playswap/v1.png)
+
+---
+
+## Plot twist: damn YouTube API 😤
+
+The original plan was to migrate playlists **from Spotify to YouTube Music**.  
+But **YouTube's API has an absurdly low daily quota**, so I couldn’t perform large-scale searches.
+
+So I had to pivot.
+
+Now, **we only support migrating from YouTube to Spotify**.  
+A downgrade in functionality, but an upgrade in reliability.
+
+---
+
+## Saved by AI (thanks Gemini)
+
+One of the biggest challenges was matching songs between platforms.  
+YouTube doesn’t return track titles exactly as expected, which made finding the same song on Spotify a mess.
+
+So I integrated **Gemini**, Google’s AI, to help normalize song titles.  
+With AI in the loop, match accuracy improved a ton — even when titles were weird or full of typos.
+
+---
+
+## Conclusion
+
+**PlaySwap** was born from a personal need, shaped by modern tools, and enhanced with artificial intelligence.  
+It’s not perfect, but it’s *useful*, *fast to build*, and above all, *fun to make*.
+
+If you’re thinking about trying this **vibe coding** approach — let me warn you:  
+it’s addictive. 😎
+
+---
+
+> *PS: If YouTube ever raises its daily quota, the pharaoh promises a new version that migrates playlists in both directions.*  
+> And yes, ironically, **I ended up building an app that does the exact opposite of what I originally needed**.  
+> But hey, at least it looks good! 😂

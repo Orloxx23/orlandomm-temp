@@ -23,7 +23,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "orminamadro@gmail.com",
@@ -146,8 +146,7 @@ export const DATA = {
         },
       ],
       image: "/projects/orlandomm.webp",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Eclipse",
@@ -170,8 +169,7 @@ export const DATA = {
         // },
       ],
       image: "/projects/eclipse.webp",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Oxa Network",
@@ -189,8 +187,7 @@ export const DATA = {
         },
       ],
       image: "/projects/oxa.webp",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Scarlxrd",
@@ -214,8 +211,27 @@ export const DATA = {
         },
       ],
       image: "/projects/scarlxrd.webp",
-      video:
-        "",
+      video: "",
+    },
+  ],
+  vibes: [
+    {
+      title: "PlaySwap",
+      href: "/blog/playswap",
+      dates: "Apr 2025",
+      active: true,
+      description:
+        "Transfer your playlists between YouTube and Spotify easily",
+      technologies: ["v0"],
+      links: [
+        {
+          type: "Website",
+          href: "https://playswap.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "vibes/playswap.webm",
     },
   ],
   hackathons: [
