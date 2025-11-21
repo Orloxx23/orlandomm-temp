@@ -16,7 +16,7 @@ export default function ProjectsPage() {
                   All Projects
                 </h1>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[800px]">
-                  A collection of all my projects, experiments, and tools I've built over time.
+                  A collection of all my projects, experiments, and tools {`I've`} built over time.
                 </p>
               </div>
             </div>

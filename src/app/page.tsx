@@ -213,10 +213,10 @@ export default function Page() {
                   My Tools
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Tools I've Built
+                  Tools {`I've`} Built
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Useful tools and utilities I've created to solve specific problems and make life easier.
+                  Useful tools and utilities {`I've`} created to solve specific problems and make life easier.
                 </p>
               </div>
             </div>
