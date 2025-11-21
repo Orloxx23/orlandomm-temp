@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, FolderKanban } from "lucide-react";
 
 export const DATA = {
   name: "Orlando Mina",
@@ -23,6 +23,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/projects", icon: FolderKanban, label: "Projects" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
@@ -172,24 +173,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Oxa Network",
-      href: "https://oxanetwork.com/",
-      dates: "December 2023",
-      active: true,
-      description:
-        "OXA is a cutting-edge web platform I designed for a Discord community, showcasing its unique features and inviting visitors to join the server.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://oxanetwork.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/oxa.webp",
-      video: "",
-    },
-    {
       title: "Scarlxrd",
       href: "https://scarlxrd.vercel.app/",
       dates: "November 2023",
@@ -220,8 +203,7 @@ export const DATA = {
       href: "/blog/playswap",
       dates: "Apr 2025",
       active: true,
-      description:
-        "Transfer your playlists between YouTube and Spotify easily",
+      description: "Transfer your playlists between YouTube and Spotify easily",
       technologies: ["v0"],
       links: [
         {
@@ -232,6 +214,54 @@ export const DATA = {
       ],
       image: "",
       video: "vibes/playswap.webm",
+    },
+  ],
+  tools: [
+    {
+      title: "ManyTwitch",
+      href: "https://manytwitch.com",
+      dates: "November 2025",
+      active: true,
+      description:
+        "Tool to watch multiple Twitch streams simultaneously in a single interface",
+      technologies: [
+        "Vite",
+        "React",
+        "Typescript",
+        "TailwindCSS",
+        "Twitch API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://manytwitch.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "tools/manytwitch.mp4",
+    },
+    {
+      title: "TimeSync",
+      href: "https://timesync.orlandomm.net/",
+      dates: "January 2024",
+      active: true,
+      description:
+        "Share Spanish schedules that auto-convert to each viewer’s local time for smooth, global coordination.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://timesync.orlandomm.net/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "tools/timesync.mp4",
     },
   ],
   hackathons: [

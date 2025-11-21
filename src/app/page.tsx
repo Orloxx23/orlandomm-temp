@@ -131,7 +131,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {DATA.projects.slice(0, 4).map((project, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
@@ -150,9 +150,21 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+          {DATA.projects.length > 4 && (
+            <BlurFade delay={BLUR_FADE_DELAY * 13}>
+              <div className="flex justify-center mt-8">
+                <Link
+                  href="/projects"
+                  className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2"
+                >
+                  View All Projects
+                </Link>
+              </div>
+            </BlurFade>
+          )}
         </div>
       </section>
-      <section id="vibe-coding">
+      {/* <section id="vibe-coding">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -190,6 +202,57 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section> */}
+      <section id="tools">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  My Tools
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Tools I've Built
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Useful tools and utilities I've created to solve specific problems and make life easier.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.tools.slice(0, 4).map((tool, id) => (
+              <BlurFade
+                key={tool.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <ProjectCard
+                  href={tool.href}
+                  key={tool.title}
+                  title={tool.title}
+                  description={tool.description}
+                  dates={tool.dates}
+                  tags={tool.technologies}
+                  image={tool.image}
+                  video={tool.video}
+                  links={tool.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+          {DATA.tools.length > 4 && (
+            <BlurFade delay={BLUR_FADE_DELAY * 13}>
+              <div className="flex justify-center mt-8">
+                <Link
+                  href="/projects"
+                  className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2"
+                >
+                  View All Tools
+                </Link>
+              </div>
+            </BlurFade>
+          )}
         </div>
       </section>
       {/* <section id="hackathons">
