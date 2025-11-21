@@ -201,7 +201,7 @@ export const DATA = {
     {
       title: "PlaySwap",
       href: "/blog/playswap",
-      dates: "Apr 2025",
+      dates: "April 2025",
       active: true,
       description: "Transfer your playlists between YouTube and Spotify easily",
       technologies: ["v0"],
