@@ -150,6 +150,23 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Pickup-N-Go Services",
+      href: "https://pickupngo.app/",
+      dates: "January 2025",
+      active: true,
+      description: "Pickup-N-Go Services is a landing page for a pickup and delivery services company. The page features a modern and attractive design, with clear sections that describe the services offered and allows users to schedule a service.",
+      technologies: ["Astro", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://pickupngo.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/pickupngo.webp",
+      video: "",
+    },
+    {
       title: "Eclipse",
       href: "https://eclipse.orlandomm.net",
       dates: "December 2023",
