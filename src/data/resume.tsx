@@ -167,29 +167,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Eclipse",
-      href: "https://eclipse.orlandomm.net",
-      dates: "December 2023",
-      active: true,
-      description:
-        "Designed and developed a responsive, high-performance landing page that effectively showcases a team of security professionals.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Framer Motion"],
-      links: [
-        {
-          type: "Website",
-          href: "https://eclipse.orlandomm.net",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "/projects/eclipse.webp",
-      video: "",
-    },
-    {
       title: "Scarlxrd",
       href: "https://scarlxrd.vercel.app/",
       dates: "November 2023",
