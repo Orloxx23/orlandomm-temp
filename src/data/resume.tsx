@@ -166,30 +166,6 @@ export const DATA = {
       image: "/projects/pickupngo.webp",
       video: "",
     },
-    {
-      title: "Scarlxrd",
-      href: "https://scarlxrd.vercel.app/",
-      dates: "November 2023",
-      active: false,
-      description:
-        "A fan-made website dedicated to the talented artist Scarlxrd, a British rapper, singer, and composer. This web platform showcases his latest YouTube videos and albums.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Youtube API",
-        "Spotify API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://scarlxrd.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/scarlxrd.webp",
-      video: "",
-    },
   ],
   vibes: [
     {
