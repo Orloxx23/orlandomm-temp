@@ -30,8 +30,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/projects", icon: FolderKanban, label: "Projects" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/projects", icon: FolderKanban, label: "Projects" },
   ],
   contact: {
     email: "orminamadro@gmail.com",
