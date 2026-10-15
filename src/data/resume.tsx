@@ -199,13 +199,7 @@ export const DATA = {
       active: true,
       description: "Transfer your playlists between YouTube and Spotify easily",
       technologies: ["v0"],
-      links: [
-        {
-          type: "Website",
-          href: "https://playswap.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "vibes/playswap.webm",
     },
