@@ -20,6 +20,13 @@ export const DATA = {
     "Java",
     "Mongo",
     "SQL",
+    "TailwindCSS",
+    "Firebase",
+    "Vite",
+    "Turbopack",
+    "Astro",
+    "Git",
+    "Claude Code",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -138,7 +145,7 @@ export const DATA = {
       active: true,
       description:
         "This is my personal portfolio showcasing a responsive design, bilingual content, and customizable light/dark themes. Discover my projects, skills, and dynamic integrations like Spotify and real-time weather updates.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Firebase"],
+      technologies: ["Next.js", "Firebase"],
       links: [
         {
           type: "Website",
@@ -164,6 +171,23 @@ export const DATA = {
         },
       ],
       image: "/projects/pickupngo.webp",
+      video: "",
+    },
+    {
+      title: "Gamerlog",
+      href: "https://gamerlog.gg/",
+      dates: "October 2026",
+      active: true,
+      description: "Track your games, aliases, guilds and every title's achievements in a single gaming history.",
+      technologies: ["Next.js", "Turbopack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://gamerlog.gg/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/gamerlog.webp",
       video: "",
     },
   ],
@@ -197,8 +221,6 @@ export const DATA = {
       technologies: [
         "Vite",
         "React",
-        "Typescript",
-        "TailwindCSS",
         "Twitch API",
       ],
       links: [
@@ -220,8 +242,6 @@ export const DATA = {
         "Share Spanish schedules that auto-convert to each viewer’s local time for smooth, global coordination.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "TailwindCSS",
       ],
       links: [
         {
