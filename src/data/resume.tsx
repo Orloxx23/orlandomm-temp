@@ -158,7 +158,7 @@ export const DATA = {
     },
     {
       title: "Pickup-N-Go Services",
-      href: "https://pickupngo.app/",
+      href: "https://pickupngo.app/?utm_source=orlandomm.net",
       dates: "January 2025",
       active: true,
       description: "Pickup-N-Go Services is a landing page for a pickup and delivery services company. The page features a modern and attractive design, with clear sections that describe the services offered and allows users to schedule a service.",
@@ -166,7 +166,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://pickupngo.app/",
+          href: "https://pickupngo.app/?utm_source=orlandomm.net",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -175,7 +175,7 @@ export const DATA = {
     },
     {
       title: "Gamerlog",
-      href: "https://gamerlog.gg/",
+      href: "https://gamerlog.gg/?utm_source=orlandomm.net",
       dates: "October 2026",
       active: true,
       description: "Track your games, aliases, guilds and every title's achievements in a single gaming history.",
@@ -183,7 +183,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://gamerlog.gg/",
+          href: "https://gamerlog.gg/?utm_source=orlandomm.net",
           icon: <Icons.globe className="size-3" />,
         },
       ],
